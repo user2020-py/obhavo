@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style2.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather - {{city}}</title>
+</head>
+<style>
+    *{font: 25px "Tahoma";}
+	{{css}}
+</style>
+<body>
+    <table align="center" cellspacing=0 border=1>
+		<tr>
+			<td align="center">
+			    <img src="https://www.flaticon.com/svg/vstatic/svg/578/578116.svg?token=exp=1611837309~hmac=efcf00dbd9c6fd4fa89aa599581dc897" alt="ob_havo">
+            </td>
+        </tr>
+        <tr>
+			<td>
+			    <p>
+                    <pre><center>{{city}}</center></pre>
+                    <ul>
+                        <li>Harorat: {{res1}}</li>
+                        <li>Shamol tezligi: {{res2}}</li>
+                        <li>Bosim: {{res3}}</li>
+                        <li>Namlik: {{res4}}</li>
+                        <li>Ko'rinish: {{res5}}</li>
+                        <li>Status: {{res6}}</li>
+                    </ul>
+                </p>
+            </td>
+        </tr>
+        <tr>
+			<td>
+			    <p>
+                    <div><pre>  App Author:
+        Matyoqubov Firdavs</pre></div>
+                    <pre><a href="http://mail.ru/" target="_blank"><center>  Dasturchi bilan bog'lanish  </center></a></pre>
+                </p>
+            </td>
+        </tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,5 @@
+body{background-color: teal;}
+li{list-style: none; margin-bottom: 5px; background-color: grey; padding-top: 5px; padding-bottom: 5px;}
+ul{padding-inline-start: 5px; padding-inline-end: 5px; margin-inline-start: 0.5em; margin-inline-end: 0.5em;}
+a{text-decoration: wavy; margin-left: 10px; margin-right: 10px;}
+table{outline: black solid; margin-top: 20px;}

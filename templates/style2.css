@@ -1,0 +1,6 @@
+body{background-color: teal;}
+table{border: black solid; margin-top: 20px; border-spacing: 10px;}
+ul{padding: 0px 0px 0px 38px; padding-right: 15px;}
+li{list-style: square;}
+a{text-decoration: none;}
+img{width: 50%; margin: 10px;}
